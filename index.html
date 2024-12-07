@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Landing Page - Culinária</title>
@@ -106,7 +107,7 @@
 
         <section id="menu">
             <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nosso pratos especiais</h3>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -117,11 +118,11 @@
                     <img src="src/images/dish.png" class="dish-image" alt="Prato 1">
 
                     <h3 class="dish-title">
-                        Lorem ipsum.
+                        Lorem Ipsum
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
                     <div class="dish-rate">
@@ -140,9 +141,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
-
-            <div id="dishes">
+            
                 <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
@@ -174,9 +173,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
 
-            <div id="dishes">
                 <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
@@ -208,9 +205,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
 
-            <div id="dishes">
                 <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
@@ -242,8 +237,67 @@
                         </button>
                     </div>
                 </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png"  id="testimonial_chef" alt="Chef">
+            
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar"  alt="Avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulano de Tal
+                                <span>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis neque minima itaque. Numquam perferendis iusto perspiciatis natus iure et!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar"  alt="Avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulano de Tal
+                                <span>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                    <i class="fa-solid fa-star" ></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis neque minima itaque. Numquam perferendis iusto perspiciatis natus iure et!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
             </div>
         </section>
+
     </main>
 
     <script src="src/javascript/script.js"></script>
