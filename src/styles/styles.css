@@ -26,6 +26,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /*Deixa o rolamento da página mais suave*/
+}
+
 body {
     background-color: var(--color-primary-1);;
 }
